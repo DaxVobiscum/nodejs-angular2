@@ -1,0 +1,9 @@
+{
+  "globalDependencies": {
+    "core-js": "registry:dt/core-js",
+    "node": "registry:dt/node",
+    "socket.io": "registry:dt/socket.io",
+    "socket.io-client": "registry:dt/socket.io-client#1.4.4+20160317120654",
+    "zone.js": "registry:dt/zone.js"
+  }
+}

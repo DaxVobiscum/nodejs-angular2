@@ -1,0 +1,13 @@
+.multi-line {
+    white-space: pre-line;
+}
+
+.abs-right {
+    position: absolute;
+    right: 0;
+}
+
+.nav-height {
+    position: relative;
+    height: 40px;
+}

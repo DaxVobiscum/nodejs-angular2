@@ -1,0 +1,6 @@
+<nav>
+    <a routerLink="/home">Home</a>
+    <a routerLink="/sign-in" [hidden]="userLoggedIn">Sign In</a>
+    <a routerLink="/sign-out" [hidden]="!userLoggedIn">Sign Out</a>
+    <a routerLink="/sign-up" [hidden]="userLoggedIn">Sign Up</a>
+</nav>

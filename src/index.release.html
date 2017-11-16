@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" ng-app="bdApp">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>bendev-nodejs</title>
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/css/app.css">
+        <style>
+            body {
+                padding-top: 60px;
+            }
+        </style>
+    </head>
+    <body ng-controller="bdCoreCtrl">
+        <div class="container">
+            <div class="masthead">
+                <nav ng-controller="bdNavCtrl">
+                    <ul class="nav nav-pills">
+                        <li bd-nav-link ng-repeat="navItem in localNav()">
+                            <a href="{{href}}">{{text}}</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div ng-view></div>
+        </div>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/js/libs.min.js"></script>
+        <script src="/js/app.min.js"></script>
+    </body>
+</html>
