@@ -1,4 +1,6 @@
-BenDev - NodeJS Development/POC Environment
+NodeJS-Angular2 - NodeJS Development/POC Environment
+
+NOTE: This project is WIP and currently not working outside of Cloud9. I'll try to get it fixed and working soon.
 
 This project is a web application written in Angular2+Typescript. It runs on a NodeJS Express web server, with Redis datastore.
 
