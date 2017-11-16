@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "BenDev NodeJS Angular2",
   "main": "server.js",
-  "repository": "bendev-nodejs",
+  "repository": "https://github.com/PoorPolonius/nodejs-angular2.git",
   "license": "MIT",
   "author": "SurlyP",
   "dependencies": {
